@@ -21,4 +21,12 @@ public class MarsRoverShould {
     public void rotate_to_the_right() {
         assertEquals("0:0:E", new MarsRover().execute("R"));
     }
+    @Test
+    public void rotate_to_the_right_twice() {
+        assertEquals("0:0:S", new MarsRover().execute("RR"));
+    }
+    @Test
+    public void rotate_to_the_right_thrice() {
+        assertEquals("0:0:W", new MarsRover().execute("RRR"));
+    }
 }
