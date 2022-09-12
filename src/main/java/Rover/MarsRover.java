@@ -10,18 +10,18 @@ public class MarsRover {
             numberOfMoves = moveInstructions.length();
         }
 
-
         if (moveInstructions.equals("R")) {
             direction = directionPositions[1];
         }
-
         if (moveInstructions.equals("RR")) {
-            direction = "S";
+            direction = directionPositions[2];
         }
         if (moveInstructions.equals("RRR")) {
-            direction = "W";
+            direction = directionPositions[3];
         }
 
         return "0:" + numberOfMoves + ":" + direction;
     }
+
+
 }
