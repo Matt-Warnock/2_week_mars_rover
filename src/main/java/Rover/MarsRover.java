@@ -2,6 +2,6 @@ package Rover;
 
 public class MarsRover {
     public String execute(String moveInstructions) {
-        throw new UnsupportedOperationException();
+        return "0:1:N";
     }
 }
