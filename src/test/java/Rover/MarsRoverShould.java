@@ -17,4 +17,8 @@ public class MarsRoverShould {
     public void move_self_three_positions_forward() {
         assertEquals("0:3:N", new MarsRover().execute("MMM"));
     }
+    @Test
+    public void rotate_to_the_right() {
+        assertEquals("0:0:E", new MarsRover().execute("R"));
+    }
 }
